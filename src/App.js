@@ -10,7 +10,7 @@ axios.defaults.baseURL = 'http://localhost:3001';
 function App() {
   return (
     <AppWrap>
-      <GlobalStyle />
+      <GlobalStyle /> 
       <Header />
       <PhotoListContainer />
       <ImageModalContainer />

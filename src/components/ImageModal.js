@@ -4,7 +4,7 @@ import Modal from './Modal';
 import { useDispatch } from 'react-redux';
 import { hideModal, setBgColor } from '../redux/imageModal';
 import { getAverageColorOfImage } from '../utils/getAverageColorOfImage';
-
+ 
 function ImageModal({ modalVisible, src, alt, bgColor }) {
   const dispatch = useDispatch();
   const onLoadImage = e => {

@@ -3,7 +3,7 @@ export function getAverageColorOfImage(imgElement) {
   const context = canvas.getContext && canvas.getContext('2d');
   const averageColor = {
     r: 0,
-    g: 0,
+    g: 0, 
     b: 0,
   };
 

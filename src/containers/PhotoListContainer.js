@@ -6,7 +6,7 @@ import { fetchPhotos } from '../redux/photos';
 function PhotoListContainer() {
   const dispatch = useDispatch();
 
-  useEffect(() => {
+  useEffect(() => { 
     dispatch(fetchPhotos());
   }, [dispatch]);
 

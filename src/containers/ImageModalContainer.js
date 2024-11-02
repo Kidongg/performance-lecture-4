@@ -6,7 +6,7 @@ function ImageModalContainer() {
   const { modalVisible, bgColor, src, alt } = useSelector(state => ({
     modalVisible: state.imageModal.modalVisible,
     bgColor: state.imageModal.bgColor,
-    src: state.imageModal.src,
+    src: state.imageModal.src, 
     alt: state.imageModal.alt,
   }));
 

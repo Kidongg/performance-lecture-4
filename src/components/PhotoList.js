@@ -1,7 +1,7 @@
 import React from 'react';
 import PhotoItem from './PhotoItem';
 import styled from 'styled-components';
-
+ 
 function PhotoList({ photos }) {
   return (
     <PhotoListWrap>

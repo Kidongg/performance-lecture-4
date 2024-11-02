@@ -7,7 +7,7 @@ export const FETCH_PHOTOS = 'FETCH_PHOTOS';
 export const fetchPhotos = createAsyncThunk(
   FETCH_PHOTOS,
   photosApi.fetchPhotos
-);
+); 
 
 /** Reducer **/
 const { reducer: photosReducer } = createSlice({
@@ -16,7 +16,7 @@ const { reducer: photosReducer } = createSlice({
     loading: 'init',
     data: [],
     error: null,
-  },
+  }, 
   reducers: {},
   extraReducers: {
     [fetchPhotos.pending]: (state, action) => {

@@ -6,9 +6,9 @@ export const HIDE_MODAL = 'HIDE_MODAL';
 export const SET_BG_COLOR = 'SET_BG_COLOR';
 
 export const showModal = ({ src, alt }) => ({
-  type: SHOW_MODAL,
+  type: SHOW_MODAL, 
   src,
-  alt,
+  alt, 
 });
 export const hideModal = () => ({ type: HIDE_MODAL });
 export const setBgColor = bgColor => ({ type: SET_BG_COLOR, bgColor });
