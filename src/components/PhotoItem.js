@@ -13,7 +13,7 @@ function PhotoItem({ photo: { urls, alt } }) {
 
   return (
     <ImageWrap>
-      <Lazyload>
+      <Lazyload offset={1000}>
         <Image src={urls.small + '&t=' + new Date().getTime()} alt={alt} onClick={openModal} />
       </Lazyload>
     </ImageWrap>
