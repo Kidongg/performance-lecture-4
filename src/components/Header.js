@@ -6,9 +6,6 @@ import { setCategory } from '../redux/category';
 function Header() {
   const dispatch = useDispatch();
   const category = useSelector(state => state.category.category)
-  // const { category } = useSelector(state => ({
-  //   category: state.category.category,
-  // }));
 
   return (
     <HeaderWrap>
